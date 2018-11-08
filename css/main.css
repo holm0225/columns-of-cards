@@ -19,6 +19,21 @@ h2 {
   text-align: center;
 }
 
+h3 {
+  font-size: 1.125rem;
+  margin: 0;
+  padding-top: 1em;
+}
+
+i {
+  font-size: .875rem;
+}
+
+p {
+  margin: 0;
+  padding-bottom: 1em;
+}
+
 .cards {
   margin: 0;
   padding: 0;
@@ -31,61 +46,50 @@ h2 {
 .cards li {
   display: inline-block;
   max-width: 20em;
-  padding: 1em;
-  background-color: #fff;
-  border: 3px solid #e2e2e2;
-  border-radius: 10px;
+  padding: .5em;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
   text-align: left;
+  width: 25%;
 }
 
 img {
-  margin: 0 auto 1rem;
+  margin: 0 auto;
   width: 100px;
-  width: 25%;
   display: flex;
   flex-direction: row;
   flex-grow: 1;
 }
 
-.cards strong {
-  display: block;
-  margin-bottom: 1rem;
-  font-size: 1.125rem;
+.btn-small {
+  font-size: .875rem;
 }
 
-.cards div {
-  text-align: center;
-}
-
-.cards a {
-  display: inline-block;
-  padding: .5em .75em;
+.btn {
   background-color: #ccc;
   border-radius: 4px;
   color: #000;
   text-decoration: none;
+  display: flex;
 }
 
-.cards a:hover {
+.btn:hover {
   background-color: #aaa;
   color: #999;
 }
 
-.btn {
-  background-color: #333;
-  color: #fff;
-  text-decoration: none;
-  font-size: 1.125rem;
-  border-radius: 8px;
-  border-width: 3px;
-  padding: .5em .9em;
-  display: inline-block;
+.lighter {
+  background-color: #e2e2e2;
 }
 
-.btn:hover {
-  background-color: #000;
+.light {
+  background-color: #ccc;
 }
 
-.btn-small {
-  font-size: .875rem;
+.dark {
+  background-color: #aaa;
+}
+
+.darker {
+  background-color: #999;
 }
