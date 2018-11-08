@@ -10,18 +10,20 @@ html {
 
 body {
   background-color: #aaa;
+  margin: 0
 }
 
 img {
   width: 100px;
   width: 25%;
-  display: flex;
+  display: inline-flex;
   flex-direction: row;
   flex-grow: 1;
 }
 
 h2 {
   font-size: 1rem;
+  color: #333;
 }
 
 .cards {
